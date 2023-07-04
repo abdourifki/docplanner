@@ -1,0 +1,156 @@
+ 
+ /* STYLING HEADER */
+ header {
+    display: flex;
+    border: solid;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+img {
+    border: solid;
+    width: 300px;
+     }
+ul{
+    display: flex;
+    justify-content:space-around;
+    padding-left: 500px;
+    gap: 40px; 
+    
+}
+/* END OF STYLING HEADER */
+
+/* STYLING SECTION */
+.logo{
+    border:solid;
+    width: 50px;
+   margin-left: 650px;
+    margin-top: 50px;
+}
+/* END OF STYLING SECTION */
+
+/* STYLING H1 */
+h1{
+    text-align: center;
+}
+/* END OF STYLING H1 */
+
+/* STYLING LES DEUX PARAGRAPHES */
+.par0{
+    display: flex;
+    justify-content: space-between;   
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/* END OF STYLING LES DEUX PARAGRAPHES */
+
+/* STYLING LES 3 CAREAUX */
+
+.container {
+    border:solid;
+    display:grid;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 7%;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.par1{
+background-color: green;
+height: 350px;
+border-radius: 10px;
+
+}
+.par2{
+    background-color: cornflowerblue;
+    height: 350px;
+    border-radius: 10px;
+}
+.par3{
+    background-color: grey;
+    height: 350px;
+    border-radius: 10px;
+}
+/* END OF STYLING LES 3 CAREAUX */
+
+/* STYLING CONTAINER 1 */
+.container1{
+    display: grid;
+
+    border: solid;
+   
+    grid-template-columns: 1fr 2fr;
+    
+    
+}
+.img2{
+    width: 15%;
+    margin-left: 150px;
+}
+/* END OF STYLING CONTAINER 1 */
+
+/* STYLING CONTAINER 2 */
+.par4{
+    border: solid;
+    padding-top: 60px;
+}
+.par5{
+    border: solid;
+}
+.container2{
+    display:grid;
+    grid-template-columns:auto auto;
+    gap: 20px;
+    background-color: aquamarine;
+
+}
+.items{
+    display: grid;
+    grid-template-columns: 250px 250px  ;
+    grid-template-rows: 250px 250px  ;
+    gap: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.item1{
+    border: solid;
+    margin-top: 30px;
+    
+    
+}
+.item2{
+    border: solid;
+    margin-bottom:30px ;
+    
+
+}
+.item3{
+    border: solid;
+    margin-top: 30px;
+    
+
+}
+.item4{
+    border: solid;
+    margin-bottom: 30px;
+}
+.T{
+    padding-top: 30px;
+}
+.pg2{
+    padding-left: 100px;
+    padding-right: 300px;
+}
+.PR{
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+.T1{
+    color:darkcyan
+}
